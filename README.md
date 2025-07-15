@@ -22,17 +22,17 @@ npm install
 -------------------------------
 
 3. Smart Contract Deployment
-1. Navigate to or create a `smart-contract` folder.
-2. Initialize Hardhat:
+- Navigate to or create a `smart-contract` folder.
+- Initialize Hardhat:
 
 ```bash
 npx hardhat
 ```
-3. Add the smart contract `FundRaising.sol` inside `contracts/`.
-4. Create a `scripts/deploy.js` for deployment.
-5. Add environment variables in `.env` (RPC URL and Private Key).
-6. Update `hardhat.config.js` to include the Sepolia testnet.
-7. Deploy the contract using:
+- Add the smart contract `FundRaising.sol` inside `contracts/`.
+- Create a `scripts/deploy.js` for deployment.
+- Add environment variables in `.env` (RPC URL and Private Key).
+- Update `hardhat.config.js` to include the Sepolia testnet.
+- Deploy the contract using:
 
 ```bash
 npx hardhat run scripts/deploy.js --network sepolia
